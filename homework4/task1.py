@@ -11,7 +11,7 @@ def which_triangle(a, b, c):
         type_triangle = "Равносторонний"
     elif a == b or b == c or c == a:
         type_triangle = "Равнобедренный"
-    elif (a + + b) <= c or a + + c <= b or b + + c <= a:
+    elif a + b <= c or a + c <= b or b + c <= a:
         type_triangle = "Не треугольник"
     return type_triangle
 

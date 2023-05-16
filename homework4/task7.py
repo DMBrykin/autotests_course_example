@@ -8,7 +8,6 @@ def move_zeros(lst):
         if i == 0:
             lst.append(lst.pop(lst.index(i)))
     return lst
-    return lst
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
 
